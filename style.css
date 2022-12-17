@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: var(--beige);
+  color: var(--tomato);
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+:root {
+  --tomato: tomato;
+  --beige: beige;
+}
+.wrapper {
+  max-width: 600px;
+  margin: 3rem auto;
+}
+h1 {
+  font-size: 3rem;
+}
+h1,
+h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+main {
+  padding: 4rem;
+  border: 3px solid var(--tomato);
+  border-radius: 5px;
+  font-weight: 700;
+}
+.settings {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.timer {
+  text-align: center;
+  font-size: 7rem;
+}
+button {
+  padding: 0.75rem 1rem;
+  color: inherit;
+  border: 2px solid var(--tomato);
+  border-radius: 5px;
+  background-color: inherit;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--beige);
+  background-color: var(--tomato);
+}
+ul > li {
+  list-style: none;
+  line-height: 2.5rem;
+}
