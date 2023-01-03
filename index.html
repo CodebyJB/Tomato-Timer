@@ -15,7 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="style.css" />
     <script src="logic.js" defer></script>
     <title>Tomato Timer</title>
@@ -24,9 +23,13 @@
     <div class="wrapper">
       <header><h1>Tomato Timer 🍅</h1></header>
       <main>
-        <div class="settings"><button class="pomodoro">Pomodoro</button><button class="short_break">Short Break</button><button class="long_break">Long Break</button></div>
-        <div class="timer">25:00</div>
-        <div class="round">Pomodoros: </div>
+        <div class="timer">00:00</div>
+        <div class="flex">
+          <button class="pomodoro">Pomodoro</button
+          ><button class="short_break">Short Break</button
+          ><button class="long_break">Long Break</button>
+        </div>
+        <audio id="alarm_audio"></audio>
       </main>
 
       <article>
