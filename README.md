@@ -9,6 +9,7 @@ Timer setInterval()
   - short Break 5 min
   - long Break 30 min
   - Display in title
+  - Kitchen timer sound
 
 ## Demo
 View project demo at https://jb-to-do-app.netlify.app/
