@@ -12,5 +12,5 @@ Timer setInterval()
   - Kitchen timer sound
 
 ## Demo
-View project demo at https://jb-to-do-app.netlify.app/
+View project demo at https://jb-tomato-timer.netlify.app/
 
